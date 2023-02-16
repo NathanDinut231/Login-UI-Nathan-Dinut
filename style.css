@@ -1,0 +1,68 @@
+body{
+    background-image: url(img/space.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.parent{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    height: 550px;
+}
+    
+
+.login{
+    
+    background-image:url(img/astronaut.jpg);
+    background-size: cover;
+    min-width: 30vw;
+    min-height: 50vh;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey ;
+
+}
+.uP{
+    
+    margin-top: 25px;
+    min-height: 5vh;
+    min-width: 20vw;
+    border: 0px;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    
+}
+
+
+.button{
+   background-color: grey;
+    margin-top: 25px;
+    min-width: 21vw;
+    min-height: 7vh;
+    border-radius: 30px;
+    border-style: none;
+    color: white;
+    box-shadow: 5px 5px 5px grey ;
+
+}
+
+.button:hover {
+    background-color: goldenrod;
+    color: black;
+    
+
+}
+.h2{
+    
+    color: black;
+    background-color: white;
+    min-width: 10vw;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+   
+
+    
+}
