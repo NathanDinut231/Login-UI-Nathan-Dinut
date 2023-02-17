@@ -1,9 +1,11 @@
+/* Background image for the page */
 body{
     background-image: url(img/space.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     
 }
+/* Parent div container */
 .parent{
     display:flex;
     flex-direction: column;
@@ -12,7 +14,7 @@ body{
     height: 550px;
 }
     
-
+/* Child div container with a picture */
 .login{
     
     background-image:url(img/astronaut.jpg);
@@ -22,8 +24,18 @@ body{
     text-align: center;
     border-radius: 20px;
     box-shadow: 5px 5px 5px grey ;
-
 }
+/* Heading for the UI */
+.h2{   
+    color: black;
+    background-color: white;
+    min-width: 10vw;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;   
+}
+
+/* Password and username input fields */
 .uP{
     
     margin-top: 25px;
@@ -34,7 +46,29 @@ body{
     border-radius: 5px;
     
 }
-.link{
+/* Sign in button */
+.button{
+    background-color: grey;
+     margin-top: 25px;
+     min-width: 21vw;
+     min-height: 7vh;
+     border-radius: 30px;
+     color: white;
+     box-shadow: 5px 5px 5px grey ;
+     border: none;
+ }
+/* Hover for button */
+ .button:hover {
+    background-color: goldenrod;
+    color: black;
+ }
+
+/* If you want some fun, comment out the button from the index.html and style.css page and go ahead and uncomment the "a" link from the index.html page and the style.css to see another photo once the link is pressed.*/
+
+
+
+/* Created a link as a button */
+/* .link{
     margin-top: 25px;
     text-align: center;
     padding-top: 12px;
@@ -47,36 +81,11 @@ body{
     box-shadow: 5px 5px 5px grey ;
     font-size: large;
     text-decoration: none;
-}
-
-
-/* .button{
-   background-color: grey;
-    margin-top: 25px;
-    min-width: 21vw;
-    min-height: 7vh;
-    border-radius: 30px;
-    border-style: none;
-    color: white;
-    box-shadow: 5px 5px 5px grey ;
-
 } */
 
-.link:hover {
+/* Added a hover for the link */
+/* .link:hover {
     background-color: goldenrod;
-    color: black;
-    
+    color: black; 
+} */
 
-}
-.h2{
-    
-    color: black;
-    background-color: white;
-    min-width: 10vw;
-    text-align: center;
-    border-radius: 5px;
-    display: inline-block;
-   
-
-    
-}
