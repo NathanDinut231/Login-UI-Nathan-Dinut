@@ -34,9 +34,23 @@ body{
     border-radius: 5px;
     
 }
+.link{
+    margin-top: 25px;
+    text-align: center;
+    padding-top: 12px;
+    display: inline-block;
+    min-width: 21vw;
+    min-height: 5vh;
+    border-radius: 30px;
+    color: white;
+    background-color: grey;
+    box-shadow: 5px 5px 5px grey ;
+    font-size: large;
+    text-decoration: none;
+}
 
 
-.button{
+/* .button{
    background-color: grey;
     margin-top: 25px;
     min-width: 21vw;
@@ -46,9 +60,9 @@ body{
     color: white;
     box-shadow: 5px 5px 5px grey ;
 
-}
+} */
 
-.button:hover {
+.link:hover {
     background-color: goldenrod;
     color: black;
     
