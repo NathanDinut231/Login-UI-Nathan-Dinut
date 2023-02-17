@@ -1,4 +1,4 @@
-/* Background image for the page */
+/* Background image for the page "index.html"*/
 body{
     background-image: url(img/space.jpg);
     background-size: cover;
@@ -63,12 +63,12 @@ body{
     color: black;
  }
 
-/* If you want some fun, comment out the button from the index.html and style.css page and go ahead and uncomment the "a" link from the index.html page and the style.css to see another photo once the link is pressed.*/
+/* In regards to the extra code below, if you are curious, comment out the button from the "index.html"  and uncomment the "a" link that is below it from the "index.html" page to see what happens.
 
 
 
-/* Created a link as a button */
-/* .link{
+/* Created the "a" link as a button to the "takeoff.html" page when pressed */
+.link{
     margin-top: 25px;
     text-align: center;
     padding-top: 12px;
@@ -81,11 +81,11 @@ body{
     box-shadow: 5px 5px 5px grey ;
     font-size: large;
     text-decoration: none;
-} */
+}
 
-/* Added a hover for the link */
-/* .link:hover {
+/* Added a hover for the "a" link */
+.link:hover {
     background-color: goldenrod;
     color: black; 
-} */
+}
 
